@@ -2,7 +2,6 @@
 FROM centos:latest
 MAINTAINER joyoak "joyoak@163.com"
 
-RUN yum -y groupinstall "development tools"
 RUN yum -y install git rpm rpm-build rpmdevtools rng-tools
 RUN yum -y install passwd
 RUN yum -y install wget
