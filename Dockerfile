@@ -14,4 +14,4 @@ CMD service sshd start
 
 EXPOSE 22
 
-#docker build -t="joyoak/centos:base" git@github.com:joyoak/docker
+#docker build -t="joyoak/centos:base" git@github.com:joyoak/docker-centos
